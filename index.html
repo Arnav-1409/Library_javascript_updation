@@ -1,0 +1,51 @@
+<!doctype <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>library</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+</head>
+
+<body>
+    <div class="parent-container">
+        <div class="left-container" id="category">
+            <h2>BOOKS CATEGORY</h2>
+            <ul>
+                <li onclick="loadCategory()">All</li>
+                <li onclick="loadCategory('Programming')">Programming</li>
+                <li onclick="loadCategory('Inspiration')">Inspiration</li>
+                <li onclick="loadCategory('Autobiography')">Autobiography</li>
+                <li onclick="loadCategory('Horror')">Horror</li>
+                <li onclick="loadCategory('Romantic')">Romantic</li>
+                <li onclick="loadCategory('Comedy')">Comedy</li>
+                <li onclick="loadCategory('Travel')">Travel</li>
+                <li onclick="loadCategory('Fantasy')">Fantasy</li>
+                <li onclick="loadCategory('Poetry')">Poetry</li>
+                <li onclick="loadCategory('Cultural')">Cultural</li>
+            </ul>
+        </div>
+        <div class="right-container">
+            <div class="row">
+                <div class="column" id="data">
+                    <h2>NAME</h2>
+                </div>
+                <div class="column" id="data">
+                    <h2>DESCRIPTION</h2>
+                </div>
+                <div class="column" id="data">
+                    <h2>CATEGORY</h2>
+                </div>
+            </div>
+            <div id="content">
+            </div>
+        </div>
+    </div>
+    <div id="data1"></div>
+</body>
+<script src="main.js"></script>
+
+</html>
